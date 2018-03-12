@@ -1,0 +1,253 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    position: relative;
+    margin: 50px auto;
+    width: 970px;
+    text-align: center;
+}
+
+#content_layer {
+    width: 850px;
+    height: 580px;
+    border: 2px inset darkgray;
+    margin: 25px auto;
+    padding: 25px;
+    box-shadow: 3px 3px 5px lightgrey;
+    text-align: left;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#show_layer {
+    height: 450px;
+    overflow-y: auto;
+}
+
+a {
+    padding: 5px;
+}
+
+#content_layer p, #content_layer #nav a {
+    text-align: left;
+    padding: 10px;
+}
+
+#content_layer p {
+    font-size: 1.4em;
+}
+
+#content_layer #nav {
+    margin: 50px 0px 0px;
+}
+
+#content_layer form {
+    text-align: right;
+}
+
+#content_layer input[type="submit"] + #nav {
+    margin: 20px 0px 0px;
+}
+
+#content_layer label {
+    display: block;
+    text-align: right;
+    padding: 10px 0px;
+    font-size: 1.3em;
+}
+
+#content_layer label span {
+    vertical-align: top;
+}
+
+#content_layer input[type="text"], #content_layer input[type="email"], #content_layer input[type="password"], #content_layer select, #content_layer textarea {
+    width: 300px;
+    font-size: 0.8em;
+    padding: 3px;
+    vertical-align: top;
+}
+
+#wrapper>p {
+    width: 250px;
+}
+
+#labels {
+    vertical-align: top;
+    display: inline-block;
+    width: 70%;
+}
+
+#errorLayer {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 25%;
+    padding-top: 1px;
+}
+
+table {
+    width: 100%;
+}
+
+table, table th {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 5px;
+}
+
+th {
+    background-color: darkslategray;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+table td {
+    text-align: left;
+}
+td:nth-child(n+4) {
+    text-align: center;
+}
+
+input[type="submit"], button {
+    width: 115px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    background-color: white;
+    box-shadow: 3px 3px 10px lightgrey;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px grey;
+    cursor: pointer;
+    color: black;
+    margin: 5px 0px;
+}
+
+input[type="submit"]:hover, button:hover {
+    border: 1px solid darkgray;
+    background-color: lightskyblue;
+    color: white;
+    box-shadow: 3px 3px 10px lightgrey;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.red {
+    color: red;
+}
+
+#content_layer #nav {
+    margin: 0px 0px 25px;
+    display: block;
+}
+
+img {
+    width: 260px;
+    padding: 10px;
+}
+
+.user_card {
+    text-align: left;
+    margin: 20px 10px;
+}
+
+#server_response {
+    border: 1px solid black;
+    height: 250px;
+    overflow-y: auto;
+    background-color: #b6d7a8;
+}
+
+#server_response p {
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.list, #create_list {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    background-color: #e2e4e6;
+    box-shadow: 3px 3px 3px lightblue;
+    text-align: center;
+    margin: 0px 5px;
+    width: 250px;
+    white-space: normal;
+}
+
+.cards {
+    min-height: 40px;
+}
+
+.card {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 6px;
+    max-width: 300px;
+    min-height: 20px;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+    margin: 10px;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+
+#content_layer .card p {
+    font-size: 1em;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+#content_layer .card p~p {
+    padding-bottom: 10px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.highlight {
+    background-color: lightskyblue;
+    box-shadow: 3px 3px 3px lightgrey;
+    min-height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.ui-sortable-helper {
+    transform: rotate(15deg);
+}
+
+#add_new_list, #add_new_card {
+    margin: 15px auto;
+    width: 90%;
+}
+
+#add_new_list #list_name, #add_new_card #card_title, #add_new_card #card_description {
+    width: 90%;
+}
+
+#add_new_card #card_description {
+    height: 70px;
+}
+
+#lists {
+    display: inline-block;
+    vertical-align: top;
+}
